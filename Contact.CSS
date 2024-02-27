@@ -1,0 +1,130 @@
+.pic{
+  
+    text-align:center;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(247, 245, 245, 0.315);
+}
+
+.form .title {
+  color: rgb(119, 120, 122);
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 85%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: first baseline;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgb(196, 196, 196);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.feed-form input {
+  height: 54px;
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #373232;
+}
+
+.button_submit:hover, .feed-form input:hover {
+  transform: scale(1.009);
+  box-shadow: 0px 0px 3px 0px #212529;
+}
+
+.button_submit {
+  width: 1200px;
+  height: 54px;
+  font-size: 14px;
+  color: rgb(247, 244, 244);
+  background: rgb(8, 5, 0);
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.rating {
+  display: inline-block;
+  text-align: center;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 30px;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: rgb(5, 5, 5);
+  transition: color 0.3s;
+  
+}
+.nav.link{
+text-decoration: none;
+}
+
